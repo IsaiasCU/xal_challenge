@@ -1,0 +1,12 @@
+column_name|type|nullable
+first_name|string|false
+last_name|string|false
+company_name|string|false
+address|string|false
+city|string|false
+state|string|false
+zip|int|false
+phone1|string|false
+phone2|string|true
+email|string|false
+department|string|false
