@@ -135,7 +135,22 @@ La respuesta es similar a esta:
 }
 ```
 
-#Cambiar a SFTP.
-#El schema solo reconoce enteros y cadenas.
-#Falta validar los campos nulos.
+### Puntos de mejora e implementaciones a futuro:
+
+* El servidor puede cambiar a SFTP.
+* En este momento el schema solo reconoce los enteros y las cadenas.
+* Falta validar campos nulos en el DataFrame.
+* Falta implementar un mecanismo de control y reporte sobre calidad de los datos.
+* Versionado de schemas.
+* División de tasks en airflow.
+* ¿Creación de espacio de landing?
+
+Además de las funcionalidades opcionales.
+
+El diagrama para resolver el procesado de datos originalmente es este:
+
+![image](https://user-images.githubusercontent.com/115485666/195011017-bd05bd1a-4023-4939-9cb9-8b7e0ccc7719.png)
+
+En caso de no ser revisado el día de mañana seguiré con la implementación durante la tarde.  
+Sin más por el momento, buena madrugada.
 
